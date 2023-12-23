@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>
+        IL MIO SITO
+    </title>
+</head>
+
+<body>
+    <h1><strong><center>Il sito</center></strong></h1>
+    
+    <hr>        <!--divisore-->
+
+    <center>
+         <h1><strong>Hello!!!!!!!!</strong></h1>        <!--titolo-->
+    </center>
+        <br>            <!--accapo-->
+        <h2>hello</h2>                  <!--sotto titolo ecc...-->
+        <br>
+        <h3>hello</h3>
+        <br>
+        <p>             <!--testi-->
+            C'era una volta tanto tempo fa in una galassia lontana lontana...
+        </p>
+        <br>
+        <p>
+            IT
+            bro code
+            EP.1
+            Federico Leo
+            84.161 visualizzazioni
+            7 giorni fa
+            World's Spinniest Table
+            Pongfinity
+            3,1 Mln di vw
+        </p>
+
+    <!--I hyperlinks-->
+
+    <a href="https://amazon.it/" target="blank" title="apri amazon">        <!--apre il link in un'altra scheda-->
+        Amazon                                  <!--per aprirlo nella stessa scheda usare 'self'-->
+    </a>
+    <br>
+    <a href="/page2.html" target="_self" title="page 2">       <!--per aprire la seconda pagina-->
+        Page 2
+    </a>
+    <hr>
+    <!--Immagini-->
+    <h2>
+        Ecco Pippo :
+    </h2>
+    <br>
+    <center>
+    <a href="https://e7.pngegg.com/pngimages/286/849/png-clipart-goofy-mickey-mouse-animated-cartoon-donald-duck-mickey-mouse.png" target="_blank">
+    <img src="/img/pippo.png" height="300" title="Pippo">        <!--inserire l'immagine-->
+    </center>
+    </a>
+<hr>
+    <!--Gli Audio-->
+    <h2>
+        Gli audio:
+    </h2>
+    <br>
+    <audio controls src="/audio/Gabry Ponte, LUM!X, Prezioso - Thunder.mp3">    <!--si può mettere autoplay per farlo partire automaticamente-->
+    </audio>                                             <!--si muted per mutarlo o loop per farlo andare in loop-->
+                                                    <!--non supporta i 'wav'-->
+
+    <!--i Video-->
+<hr>
+    <h2 align="center">
+        I video
+    </h2>
+    <br>
+
+    <video controls autoplay loop src="/video/video.mp4" width="720">
+            <!--impostazioni per un video-->
+    </video>
+   <hr>
+    <!--Formattazione del testo-->
+
+    <p>Questo è un testo normale</p>
+    <p>Questo è un <b>testo grassetto</b></p>     <!--con B si fa il grassetto-->
+    <p>Questo è un <i>testo corsivo</i></p> <!--corsivo-->
+    <p>Questo è un <big>testo grande</big></p>  <!--Grande-->
+    <p>Questo è un <small>testo piccolo</small></p> <!--Piccolo-->
+    <p>Questo è un <sub>testo sotto</sub></p>     <!--sottotitolo-->
+    <p>Questo è un <sup>testo sopra</sup></p>       <!--esponente-->
+    <p>Questo è un <ins>testo sottolineato</ins></p>    <!--sottolineato-->
+    <p>Questo è un <del>testo cancellato</del></p>     <!--cancellato-->
+    <p>Questo è un <mark>testo evidenziato</mark></p>   <!--evidenziato-->
+<hr>
+
+    <!--Liste-->
+
+    <h4>
+        Lista 1:
+    </h4>
+    <ul>            <!--lista con i punti-->
+        <li>PUNTO 1</li>
+        <li>Punto 2</li>
+        <ul>                <!--lista dentro lista-->
+            <li>pippo</li>
+            <li>pluto</li>
+        </ul>
+    </ul>
+
+    <h4>
+        Ciao sono Pippo
+    </h4>
+    <ol type="1">        <!--lista con i numeri con 'type' si può cambiare i numeri-->
+        <li>
+            Primo passo
+        </li>
+        <li>
+            Secondo passo
+        </li>
+    </ol>
+
+    <h4>
+        Ciao sono Pippo
+    </h4>
+    <dl>        <!--lista senza punti ma con le distanze-->
+        <dt>pasta</dt>
+        <dd>cibo fatto con il grano</dd>
+        <dl>acqua</dl>
+        <dd>bevanda fatta con l'acqua</dd>
+    </dl>
+<hr>
+
+    <!--Tabelle-->
+<h3>Tabella molto bella</h3>
+<br>
+    <table bgcolor="black" align="center" width="800">     <!--per i margini-->
+        <tr bgcolor="red" align="center">      <!--riga-->
+            <th>Domenica</th>   <!--colonna-->
+            <th>Lunedi</th>
+            <th>martedi</th>            <!--'windth' per allungare la cella-->
+            <th>mercoledi</th>
+            <th>giovedi</th>
+            <th>sabato</th>
+        </tr>
+        <tr bgcolor="lightgreen" align="right">   <!--riga-->
+            <td>chiuso</td>     <!--colonna-->
+            <td>aperto</td>
+            <td>apreto</td>
+            <td>aperto</td>
+            <td>aperto</td>
+            <td>chiuso</td>
+        </tr>
+    </table>
+<hr>
+
+    <!--Pulsanti bottoni-->
+<div align="center">
+    <h1 align="center">Pulsanti</h1>
+
+    <a href="/ad.html">
+        <button style="background-color:black; color: rgb(17, 255, 116); border-radius: 10px; width: 10%;">
+            <h1><b>Clicca</b></h1>
+        </button>
+    </a>
+
+    <br><br>
+
+    <button onclick="doSomething()" style="background-color:rgb(0, 26, 255); color: rgb(255, 217, 0); border-radius: 10px; width: 20%;">
+        <h1><b>Clicca pt 2.0</b></h1>
+    </button>
+
+    <p id="test">Hello</p>
+
+</div>
+    <script>
+        function doSomething(){
+            document.getElementsById("test").innerHTML = "Adiosssssssssssssssssssss";
+        }
+    </script>
+
+    <hr>
+
+    <!--Forms-->
+
+    <h1 align="center">
+        <b>Casella di inserimento</b>
+    </h1>
+
+    <form action="action_page.php" method="post">
+
+        <div>
+            <label for="nome">Nome: </label>             <!--casella dove inserire info-->
+            <input type="text" id="nome" name="nome" placeholder="inserire il nome" required>  <!--con 'required' ti avvisa di compilare quel campo-->
+        </div>
+
+        <br>
+
+        <div>
+            <label for="cognome">Cognome: </label>
+            <input type="text" id="cognome" name="cognome" placeholder="inserire il cognome" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="password">Password: </label>
+            <input type="password" id="pass" name="pass" placeholder="inserire la password" required maxlength="16">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="email@email.com" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="tel">Telefono: </label>
+            <input type="tel" name="tel" id="tel" placeholder="123 456 23 54" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="compleanno">Compleanno: </label>
+            <input type="date" name="compleanno" id="compleanno" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="quantita">Quantità: </label>
+            <input type="number" name="quantita" id="quantita" min="0" max="99"  value="1" required>    <!--'value' come numeri iniziale-->
+        </div>
+
+        <br>
+
+        <div>                            <!--se non sono dello stesso gruppo se ne possono selezionare più di uno-->
+
+            <label for="sesso"><b>Sesso:</b> </label>
+
+            <label for="maschio" style="color: blue;">maschio</label>
+            <input type="radio" name="sesso" id="maschio" value="Maschio">
+
+            <label for="femmina" style="color: rgb(255, 101, 126);">femmina</label>
+            <input type="radio" name="sesso" id="femmina" value="Femmina">
+
+            <label for="altro">altro</label>
+            <input type="radio" name="sesso" id="altro" value="Altro">
+        </div>
+
+        <br>
+
+        <div>
+
+            <label for="pagamento">Pagamento: </label>
+
+            <select name="payment" id="payment">        <!--sele<ione a più scelte-->
+                <option value="visa">Visa</option>
+                <option value="mastercard">Master Card</option>
+                <option value="BTC">Bitcoin</option>
+                <option value="contanti">Contanti</option>
+            </select>
+
+        </div>
+
+        <br>
+
+        <div>
+            <label for="dati">Acconsenti a farti rubare tutti i dati??? </label>
+            <input type="checkbox" name="dati" id="dati">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="reset" style="color: red; background-color: black;">
+            <input type="submit" style="color: green; background-color: black;">
+        </div>
+
+        <hr>
+        
+        <a href="/page3_css.html" target="_self" title="pag3_css">
+            <h2><b>Pagina 3 CSS</b></h2>
+        </a>
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="es11" content="esercizio11">
+    <title>Es11</title>
+
+    <style>
+        #form{
+            margin-left: 20px;
+            margin-top: 20px;
+            font-size: larger;
+            color:darkblue;
+        }
+        #body{
+            background-color: darkorange;
+        }
+        #idname{
+            background-color:rgba(0, 255, 255, 0);
+            border: 1px solid darkblue;
+        }
+        #reset:hover{
+            cursor: pointer;
+            color: black;
+            background-color: red;
+        }
+        #submit:hover{
+            cursor: pointer;
+            color: black;
+            background-color: greenyellow;
+        }
+    </style>
+
+</head>
+    <body id="body">
+        <form id="form">
+            <label for="name">Name:</label>
+            <input type="text" id="idname" name="name" placeholder="Nome">
+
+            <br><br>
+            
+            <label for="surname">Cognome:</label>
+            <input type="text" id="idsurname" name="sutname" placeholder="Cognome">
+            
+            <br><br>
+
+            <label for="title">Occupazione:</label>
+            <br>
+            <input type="radio" id="studente" name="occupazione" value="studente">
+            <label for="studente">&nbsp;Studente</label>
+            <input type="radio" id="occupato" name="occupazione" value="occupato">
+            <label for="occupato">&nbsp;Occupato</label>
+            <input type="radio" id="disoccupato" name="occupazione" value="disoccupato">
+            <label for="disoccupato">&nbsp;Disoccupato</label>
+
+            <br><br>
+
+            <label for="title">Titolo di studio:</label>
+            <br>
+            <input type="checkbox" id="3media" name="titoloStudio" value="3media">
+            <label for="3media">&nbsp;Terza Media</label>
+            <input type="checkbox" id="diploma" name="titoloStudio" value="diploma">
+            <label for="disploma">&nbsp;Diploma</label>
+            <input type="checkbox" id="laurea" name="titoloStudio" value="laurea">
+            <label for="laurea">&nbsp;Laurea</label>
+            <input type="checkbox" id="master" name="titoloStudio" value="master">
+            <label for="master">&nbsp;Master</label>
+            <input type="checkbox" id="specialistica" name="titoloStudio" value="specialistica">
+            <label for="specialistica">&nbsp;Specialistica</label>
+
+            <br><br>
+
+            <label for="title">Data di nascita:</label>
+            <br>
+            <input type="date" id="iddata" name="iddata">
+
+            <br><br>
+            <input type="reset" id="reset">
+            <input type="submit" id="submit">
+        </form>
+    </body>
+</html>

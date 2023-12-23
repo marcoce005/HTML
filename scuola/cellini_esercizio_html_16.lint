@@ -1,0 +1,23 @@
+FOUND ERRORS
+Resulting report:
+
+  .home/marco/Documenti/4INFO_2223/TPSI/Esercizi/HTML/cellini_marco/cellini_compito02.html:11:7
+  ✖   11:7   Error   The “align” attribute on the “div” element is obsolete. Use CSS instead.                                                                                  
+  ✖   12:13  Error   Bad value “40%” for attribute “width” on element “img”: Expected a digit but saw “%” instead.                                                             
+  ✖   12:13  Error   An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.  
+  ✖   25:51  Error   The “width” attribute on the “td” element is obsolete. Use CSS instead.                                                                                   
+  ✖   32:46  Error   The “width” attribute on the “td” element is obsolete. Use CSS instead.                                                                                   
+  ✖   38:21  Error   The “width” attribute on the “td” element is obsolete. Use CSS instead.                                                                                   
+  ✖   39:66  Error   The “width” attribute on the “td” element is obsolete. Use CSS instead.                                                                                   
+  ✖   46:55  Error   The “width” attribute on the “td” element is obsolete. Use CSS instead.                                                                                   
+  ✖   60:9   Error   The “align” attribute on the “div” element is obsolete. Use CSS instead.                                                                                  
+  ✖   70:7   Error   The “align” attribute on the “div” element is obsolete. Use CSS instead.                                                                                  
+  ✖   82:7   Error   The “align” attribute on the “div” element is obsolete. Use CSS instead.                                                                                  
+  ✖  105:7   Error   The “align” attribute on the “div” element is obsolete. Use CSS instead.                                                                                  
+  ✖  120:7   Error   The “align” attribute on the “div” element is obsolete. Use CSS instead.                                                                                  
+  ✖  157:7   Error   The “align” attribute on the “div” element is obsolete. Use CSS instead.                                                                                  
+  ✖  166:7   Error   The “align” attribute on the “div” element is obsolete. Use CSS instead.                                                                                  
+
+  15 errors
+
+ 

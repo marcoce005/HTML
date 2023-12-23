@@ -1,0 +1,16 @@
+.pag1_css{
+    background-color: black;
+    color: white;
+}
+
+.pag2_css{
+    background-color: gray;
+    color: rgb(255, 0, 0);
+}
+
+/*
+il CSS si può applicare nella linee, internamente alle linee e esternamente
+    
+       inlinea == per ogni linea nell'html'
+       interno == nel 'head' della html creando la sezione 'style'
+       esterno con un file CSS che bisogna linkare nell'html'       */

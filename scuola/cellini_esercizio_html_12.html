@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="es12" content="esercizio12">
+    <title>Es12</title>
+
+    <style>
+        #form{
+            margin-left: 20px;
+            margin-top: 20px;
+            font-size: larger;
+            color:darkblue;
+        }
+        #body{
+            background-color: darkorange;
+        }
+        #idname{
+            background-color:rgba(0, 255, 255, 0);
+            border: 1px solid darkblue;
+        }
+        #reset:hover{
+            cursor: pointer;
+            color: black;
+            background-color: red;
+        }
+        #submit:hover{
+            cursor: pointer;
+            color: black;
+            background-color: greenyellow;
+        }
+        input{
+            background-color: darkorange;
+            border: 1px solid wheat;
+        }
+    </style>
+
+</head>
+    <body id="body">
+        <form id="form">
+            <label for="name">Name:</label>
+            <input type="text" id="idname" name="name" placeholder="Nome">
+
+            <br><br>
+            
+            <label for="surname">Cognome:</label>
+            <input type="text" id="idsurname" name="sutname" placeholder="Cognome">
+            
+            <br><br>
+
+            <label for="title">Occupazione:</label>
+            <br>
+            <input type="radio" id="studente" name="occupazione" value="studente">
+            <label for="studente">&nbsp;Studente</label>
+            <input type="radio" id="occupato" name="occupazione" value="occupato">
+            <label for="occupato">&nbsp;Occupato</label>
+            <input type="radio" id="disoccupato" name="occupazione" value="disoccupato">
+            <label for="disoccupato">&nbsp;Disoccupato</label>
+
+            <br><br>
+
+            <label for="title">Titolo di studio:</label>
+            <br>
+            <input type="checkbox" id="3media" name="titoloStudio" value="3media">
+            <label for="3media">&nbsp;Terza Media</label>
+            <input type="checkbox" id="diploma" name="titoloStudio" value="diploma">
+            <label for="disploma">&nbsp;Diploma</label>
+            <input type="checkbox" id="laurea" name="titoloStudio" value="laurea">
+            <label for="laurea">&nbsp;Laurea</label>
+            <input type="checkbox" id="master" name="titoloStudio" value="master">
+            <label for="master">&nbsp;Master</label>
+            <input type="checkbox" id="specialistica" name="titoloStudio" value="specialistica">
+            <label for="specialistica">&nbsp;Specialistica</label>
+
+            <br><br>
+
+            <label for="title">Data di nascita:</label>
+            <br>
+            <input type="date" id="iddata" name="iddata">
+
+            <br><br>
+            <input type="reset" id="reset">
+            <input type="submit" id="submit">
+        </form>
+
+        <br>
+        
+        <form id="form">
+            <label for="altezza">Altezza</label>
+            <input type="number" id="altezza" name="altezza" min="10" max="100">
+            <label for="altezza">cm</label>
+            <br><br>
+            <label for="circonferenza">Circonferenza</label>
+            <input type="number" id="circonferenza" name="circonferenza" min="0" max="10">
+            <label for="circonferenza">cm</label>
+            <br><br>
+            <label for="volume">Volume</label>
+            <input type="number" id="volume" name="volume" min="1" max="99">
+            <label for="volume">cm<sup>2</sup></label>
+            <br><br>
+            <label for="base">Base</label>
+            <input type="number" id="base" name="base" min="-11" max="1">
+            <label for="base">cm</label>
+            <br><br>
+            <label for="colore">Colore del cielo</label>
+            <input type="color" value="#00EEFF">
+            
+            <br><br>
+            
+            <label for="cars">Genere:  </label>
+            <select name="genere" id="cars">
+                <option value="maschio">Maschio</option>
+                <option value="femmina">Femmina</option>
+                <option value="non-binary">Non Binary</option>
+                <option value="altro">Altro</option>
+                <option value="boh">Boh</option>
+            </select>
+
+            <br><br>
+            
+            <label for="colore">Colore:</label>
+            <select id="colore">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="black">Black</option>
+                <option value="white">White</option>
+                <option value="blue">Blue</option>
+            </select>
+
+            <br><br>
+
+            <label for="testo">Testo:&nbsp;</label>
+            <textarea id="testo" name="testo" cols="60" rows="6" placeholder="Scrivi un testo di minimo 144 caratteri"></textarea>
+        </form>
+    </body>
+</html>

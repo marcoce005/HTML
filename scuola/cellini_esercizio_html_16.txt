@@ -1,0 +1,6 @@
+
+
+ERROR: An unexpected error has occurred
+It looks like you haven't installed Java
+- https://github.com/dutchenkoOleg/node-w3c-validator#attention
+- https://java.com

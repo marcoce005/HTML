@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="soc-sportiva" content="soc-sportiva">
+    <title>Società-Sportiva</title>
+</head>
+    <body>
+        <div align="center">
+            <h1>Iscrizione Società Sportiva</h1>
+
+            <br>
+
+            <form>
+                <fieldset>
+                    <legend>Dati Personali</legend>
+                    
+                    <label for="nome">Nome:&nbsp;</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+                    <label for="cognome">Cognome:&nbsp;</label>
+                    <input type="text" id="cognome" name="cognome" required>
+
+                    <br><br>
+
+                    <label for="data">Data di nascita:&nbsp;</label>
+                    <input type="date" id="data" name="data" required>
+
+                    <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+                    <label for="city">Città di nascita:&nbsp;</label>
+                    <input type="text" id="city" name="city" required>
+
+                    <br><br>
+
+                    <label for="codF">Codice Fiscale:&nbsp;</label>
+                    <input type="text" id="codF" name="codF" required>
+
+                    <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+                    <label for="nID">Numero carta di identità:&nbsp;</label>
+                    <input type="text" id="nID" name="nID" required>
+                </fieldset>
+            
+                <fieldset>
+                    <legend>Attività svolta</legend>
+
+                    <label for="typesport">Sport praticato:&nbsp;</label>
+                    <input list="sport" name="typesport" id="typesport">
+                    <datalist id="sport">
+                        <option value="Calcio"></option>
+                        <option value="Basket"></option>
+                        <option value="Volley"></option>
+                        <option value="Baseball"></option>
+                        <option value="Scacchi"></option>
+                    </datalist>
+
+                    <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+                    <label for="ore">Ore Praticate alla settimana:&nbsp;</label>
+                    <input type="number" id="ore" name="ore" min="1" max="7">
+
+                </fieldset>
+        
+                <br><br>
+
+                <div align="left">
+                    <input type="checkbox" id="autorizzazione" name="autorizzazione">
+                    <label for="autorizzazione">Autorizzi a farti rubare i dati e tutti i soldi???</label>            
+                </div>
+
+                <br><br>
+
+                <div align="right">
+                    <input type="submit" name="invio" id="invio"> 
+                    <input type="reset" name="cancella" id="cancella">      
+                </div>
+        
+            </form>
+        </div>
+    </body>
+</html>

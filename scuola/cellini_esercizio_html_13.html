@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="es13" content="esercizio13">
+    <title>Es13</title>
+</head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Registrazione</legend>
+                <label for="name">Nome&nbsp;</label>
+                <input type="text" id="name" name="name" placeholder="nome">
+                
+                <br><br>
+                
+                <label for="surname">Cognome&nbsp;</label>
+                <input type="text" id="surname" name="surname" placeholder="cognome">
+                
+                <br><br>
+                
+                <label for="genere">Genere&nbsp;</label>
+                <input list="sex" name="genere" id="genere">
+                <datalist id="sex">
+                    <option value="maschio">
+                    <option value="femmina">
+                    <option value="altro">
+                </datalist>
+
+                <br><br>
+                
+                <label for="email">Email&nbsp;</label>
+                <input type="email" id="email" name="email" placeholder="pippo@istitutoangelli.it">
+
+                <br><br>
+                
+                <label for="psw">Password&nbsp;</label>
+                <input type="password" id="psw" name="psw">
+
+                <br><br>
+                
+                <label for="data">Data di nascita&nbsp;</label>
+                <input type="date" id="data" name="data">
+
+                <br><br>
+                
+                <label for="nazione">Nazionalità&nbsp;</label>
+                <input list="nations" name="nazione" id="nazione">
+                <datalist id="nations">
+                    <option value="Italina">
+                    <option value="Sud-Americana">
+                    <option value="Detesca">
+                </datalist>
+            </fieldset>
+            
+            <br>
+
+            <fieldset>
+                <legend>Altri dati</legend>
+                
+                <label for="lavoro">Attività lavorativa&nbsp;</label>
+                <input list="work" name="lavoro" id="lavoro">
+                <datalist id="work">
+                    <option value="Dipendente">
+                    <option value="Libero professionista">
+                    <option value="Disoccupato">
+                </datalist>
+
+                <br><br>
+
+                <label for="hobby">Hobby&nbsp;</label>
+                <input list="list-hobby" name="hobby" id="hobby">
+                <datalist id="list-hobby">
+                    <option value="Giocare a calcio">
+                    <option value="Smanettare">
+                    <option value="Giocare ai videogiochi">
+                    <option value="Altro...">
+                </datalist>
+
+                <br><br>
+
+                <label for="altezza">Altezza&nbsp;</label>
+                <input type="number" name="altezza" id="altezza" min="100" max="220">
+                <label for="altezza">&nbsp;cm</label>
+
+                <br><br>
+
+                <label for="peso">Peso&nbsp;</label>
+                <input type="number" name="peso" id="peso" min="40" max="150">
+                <label for="peso">&nbsp;kg</label>
+                
+                <br><br>
+
+                <label for="color">Colore preferito&nbsp;</label>
+                <input type="color" name="color" id="color" value="#00FFFF">
+
+                <br><br>
+
+                <label for="note">Note personale</label>
+                <textarea id="note" name="nome" cols="30" rows="5" placeholder="Note personale"></textarea>
+            </fieldset>
+        </form>        
+    </body>
+</html>
