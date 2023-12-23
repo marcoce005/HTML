@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cellini_verifica03.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <title>Blog</title>
+</head>
+
+<body>
+    <div class="blog">
+        <div class="top"> <!-- barra sopra -->
+            <div class="nav titolo">
+                Il Blog di Marco Cellini
+            </div>
+            <div class="nav foto">
+                <img src="./cellini_verifica03.jpg" alt="foto-profilo">
+            </div>
+        </div>
+
+        <div class="articoli"> <!-- lista degli articoli -->
+            <div class="cont left">
+                <div class="blocco">
+                    <div class="speciale">MOUNT &amp; UNMOUNT</div>
+                </div>
+                <div class="blocco">
+                    <div>ARTICOLO 2</div>
+                </div>
+                <div class="blocco">
+                    <div>ARTICOLO 3</div>
+                </div>
+                <div class="blocco">
+                    <div>ARTICOLO 4</div>
+                </div>
+                <div class="blocco">
+                    <div>ARTICOLO 5</div>
+                </div>
+                <div class="blocco">
+                    <div>ARTICOLO 6</div>
+                </div>
+            </div>
+
+            <div class="cont right"> <!-- articolo selezionato -->
+                <h1>I COMANDI MOUNT E UMOUT</h1>
+                <p>
+                    Nei sistemi che fanno riferimento al mondo linux (o, più correttamente, nei sistemi
+                    unix-like) le periferiche di archiviazione dati vengono rilevate dal sistema
+                    operativo non appena collegate al computer, ma i loro filesystem non vengono
+                    &quot;integrati&quot; automaticamente all&#39;interno del &quot;filesystem globale&quot;<br><br>
+                    Questa operazione di &quot;innesto&quot; avviene mediante il comando mount il quale
+                    collega il filesystem della periferica al filesystem globale del sistema inserendolo
+                    all&#39;interno dell&#39;albero delle directory (in ogni sistema linux, un drive è
+                    rappresentato come se fosse una comune cartella). L&#39;operazione inversa, che
+                    rilascia un filesystem montato, si dice smontaggio e si esegue tramite il comando
+                    umount.<br><br>A titolo di confronto, per quanto riguarda il mondo Windows, l&#39;operazione
+                    di mount è celata dal sistema operativo. Questa operazione, infatti, viene eseguita
+                    all&#39;avvio ed, automaticamente, ogni volta in cui viene collegata una nuova
+                    periferica (si pensi ad esempio al caso delle penne USB).<br><br>Sui sistemi linux
+                    l&#39;operazione di mount è svolta all&#39;avvio in modo automatico nel caso della
+                    directory radice (/) e, solitamente, anche all&#39;inserimento di una periferica
+                    rimovibile. In alcune circostanze, tuttavia, è certamente utile saper eseguire
+                    l&#39;operazione mediante comandi manuali.<br><br>Il loop device è un dispositivo virtuale a
+                    blocchi che rende visibile al sistema un file come se fosse un dispositivo di
+                    memorizzazione. Alcuni file a struttura regolare come le immagini virtuali (es:
+                    ISO) sono particolarmente adatte ad essere rappresentate con un intero file
+                    system.<br><br>Attraverso il loop mount è possibile eseguire questa operazione. Il loop
+                    mount si esegue lanciando il comando mount col parametro -o loop, seguito dal
+                    nome del file e dalla destinazione che sarà usata come radice.<br><br>In taluni casi è
+                    necessario forzare il montaggio di un device poichè questo si trova per un qualche
+                    motivo in stato di lock. Il montaggio forzato si richiama con la sintassi.
+                </p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; Marco Cellini - 2021-2022</p>
+            <div>
+                <div class="contatti email">
+                    <span class="material-icons">email</span>
+                    marco.cellini@istitutoagnelli.it
+                </div>
+                <div class="contatti telefono">
+                    <span class="material-icons">phone</span>
+                    3339038932
+                </div>
+                <div class="contatti frase">
+                    <span class="material-icons">recycling</span>
+                    Don't print articles to save paper and ink
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

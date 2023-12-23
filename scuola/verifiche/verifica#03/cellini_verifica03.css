@@ -1,0 +1,106 @@
+.blog {
+    width: 60%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #e1e1e1;
+}
+
+img {
+    width: 100px;
+    border-radius: 100%;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.foto {
+    float: right;
+    margin-right: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.titolo {
+    font-family: 'Hurricane', cursive;
+    font-size: 4.8rem;
+    font-weight: lighter;
+    text-shadow: 2px 2px white;
+}
+
+.top {
+    text-align: center;
+    background-color: #d3d3d3;
+}
+
+.blocco {
+    font-family: 'Bungee', cursive;
+    width: 200px;
+    height: 100px;
+    border-bottom:  3px solid #d3d3d3;
+}
+
+.blocco div {
+    text-align: center;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+.blocco .speciale {
+    text-align: center;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.blocco:hover {
+    font-style: italic;
+    background-color: #d3d3d3;
+    border-bottom:  3px solid #ff0000;
+}
+
+.right {
+    width: 750px;
+    float: right;
+    text-align: justify;
+}
+
+.right h1 {
+    font-family: 'Bungee', cursive;
+    text-align: center;
+    text-shadow: 2px 2px 2px gray;
+}
+
+.cont {
+    display: inline-block;
+}
+
+.footer {
+    font-style: italic;
+    margin-top: 50px;
+    background-color: #d3d3d3;
+    padding-top: 1px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.contatti {
+    display: inline-block;
+}
+
+.contatti span {
+    vertical-align: -30%;
+    margin-right: 10px;
+}
+
+.email, .telefono {
+    margin-right: 150px;
+}
